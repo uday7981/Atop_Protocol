@@ -1,0 +1,8 @@
+[workspace]
+members = [
+    "src/bridge_bitcoin"
+]
+
+[profile.release]
+lto = true
+opt-level = 'z'

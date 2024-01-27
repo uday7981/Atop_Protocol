@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "canisters": {
+    "bridge_bitcoin": {
+        "type": "rust",
+        "package": "bridge_bitcoin",
+        "candid": "src/bridge_bitcoin/bitcoin.did"
+    }
+  }
+}
